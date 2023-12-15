@@ -1,0 +1,32 @@
+{
+  "name": "login-desde-cero",
+  "version": "1.0.0",
+  "description": "login y register",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "iverial",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cookie": "^0.5.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.6.0",
+    "express": "^4.18.2",
+    "fastify-cookie": "^5.7.0",
+    "js": "^0.1.0",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.5",
+    "moongose": "^1.0.0",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.2.5",
+    "nodemon": "^3.0.1",
+    "parser": "^0.1.4",
+    "zod": "^3.22.2"
+  }
+}
